@@ -1,0 +1,42 @@
+---
+title: 两个公式
+description: KDROI 用来给过线的词排序，KGR 用来看标题挤不挤。都不替你选定「先做」。
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+先过[完整闸门](/keywords/full-gate/)，再算。没有量的行，这两格留空，回到免费路径用 `allintitle` 在表内比较。
+
+下面的整数只为了把除法算给你看，不是某个词的真实搜索量。
+
+## KDROI
+
+`KDROI = Volume × CPC ÷ KD`
+
+用来排序。过了闸门的行里，这个数更大的排更前。
+
+KD 是 0 就不要除，这行单独看，不要填一个无穷大。
+
+演算：Volume 1000、CPC 0.4、KD 20，KDROI = 1000 × 0.4 ÷ 20 = 20。换一组数再算一遍你自己的行。
+
+## KGR
+
+`KGR = intitle 个数 ÷ Volume`
+
+练习里用的是谷歌 `intitle:` 的结果个数，不是 `allintitle:`。两套数字分开填。公开说明在 [seo.web.cafe/kgr](https://seo.web.cafe/kgr/)。
+
+- 小于 0.25：相对好做
+- 0.25 到 1：中等
+- 大于 1：更挤
+
+演算：intitle 个数 200、Volume 1000，KGR = 0.2，落在「相对好做」。这仍是算术。
+
+没有 Semrush 时，个数用谷歌 `intitle:你的说法` 自己数结果条数，量用 Keyword Planner。两个都没有，KGR 留空。
+
+## 算完做什么
+
+按 KDROI 把过线的行排个序，再看 KGR 挤不挤。排序只帮你决定先看哪一行。
+
+「先做」仍然只有一行，而且要你自己写上：两周内做得出那一页。公式排第一的，前 10 条太挤，就标「再观察」，看[案例](/keywords/cases/)里的 remover 和 compressor。
+
+<LinkCard title="候选词表" href="/keywords/sheet/" description="Volume、KD、CPC、KDROI、KGR 填在补列里。没有工具就空着。" />
