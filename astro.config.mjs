@@ -41,9 +41,12 @@ export default defineConfig({
 				{
 					label: '选词',
 					items: [
-						{ label: '怎么选第一个词', slug: 'keywords' },
+						{ label: '两条路', slug: 'keywords' },
 						{ label: '选词清单', slug: 'keywords/checklist' },
 						{ label: '候选词表', slug: 'keywords/sheet' },
+						{ label: '完整闸门', slug: 'keywords/full-gate' },
+						{ label: '两个公式', slug: 'keywords/formulas' },
+						{ label: '练习案例', slug: 'keywords/cases' },
 					],
 				},
 				{
