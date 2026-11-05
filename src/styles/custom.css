@@ -1,0 +1,11 @@
+:root {
+	--sl-color-accent-low: hsl(164, 42%, 18%);
+	--sl-color-accent: hsl(164, 72%, 42%);
+	--sl-color-accent-high: hsl(164, 68%, 82%);
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-high: hsl(164, 72%, 24%);
+	--sl-color-accent: hsl(164, 78%, 28%);
+	--sl-color-accent-low: hsl(164, 48%, 92%);
+}

@@ -1,0 +1,22 @@
+{
+  "name": "chuhai-starter-guide",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "给还没有关键词、还没有网站的人用的中文出海起步指南。",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.42.9",
+    "astro": "^7.3.6",
+    "sharp": "^0.35.3"
+  }
+}
